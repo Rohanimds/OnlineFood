@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test">
+    <groups>
+    <run>
+    <include name="regression"/>
+    </run>
+    </groups>
+    <classes>
+      <class name="updatedtstngofos.AddMenuToRestaurant"/>
+      <class name="updatedtstngofos.Order_From_HomePage"/>
+      <class name="updatedtstngofos.CustomerPlacesOrder"/>
+      <class name="updatedtstngofos.CreateRestaurant"/>
+      <class name="updatedtstngofos.RegisterUser"/>
+      <class name="updatedtstngofos.Update_Order_Status"/>
+      <class name="updatedtstngofos.EndToEnd"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

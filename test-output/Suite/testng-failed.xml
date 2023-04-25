@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="alltest(failed)">
+    <classes>
+      <class name="updatedtstngofos.CustomerPlacesOrder">
+        <methods>
+          <include name="setup"/>
+          <include name="intsalationSetup"/>
+          <include name="close"/>
+          <include name="customerPlacesOrder"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- updatedtstngofos.CustomerPlacesOrder -->
+      <class name="updatedtstngofos.CreateRestaurant">
+        <methods>
+          <include name="setup"/>
+          <include name="intsalationSetup"/>
+          <include name="close"/>
+          <include name="logout"/>
+          <include name="createRestaurant"/>
+        </methods>
+      </class> <!-- updatedtstngofos.CreateRestaurant -->
+      <class name="updatedtstngofos.AddMenuToRestaurant">
+        <methods>
+          <include name="setup"/>
+          <include name="intsalationSetup"/>
+          <include name="close"/>
+          <include name="addMenuToRestaurant"/>
+          <include name="logout"/>
+        </methods>
+      </class> <!-- updatedtstngofos.AddMenuToRestaurant -->
+    </classes>
+  </test> <!-- alltest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
